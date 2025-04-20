@@ -1,0 +1,116 @@
+.ai-creations {
+    padding: 4rem 2rem;
+    background-color: #fff;
+  }
+  
+  .ai-creations__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .ai-creations__title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .ai-creations__subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+  }
+  
+  .ai-creations__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .ai-creations__card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .ai-creations__card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ai-creations__thumbnail {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .ai-creations__thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .ai-creations__card:hover .ai-creations__thumbnail img {
+    transform: scale(1.05);
+  }
+  
+  .ai-creations__platform {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  
+  .ai-creations__platform svg {
+    color: #3a7bd5;
+  }
+  
+  .ai-creations__card-content {
+    padding: 1.5rem;
+  }
+  
+  .ai-creations__card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .ai-creations__card-type {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ai-creations__link {
+    display: inline-block;
+    color: #3a7bd5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .ai-creations__link:hover {
+    color: #2a5db0;
+  }
+  
+  @media (min-width: 768px) {
+    .ai-creations__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .ai-creations__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
