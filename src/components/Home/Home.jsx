@@ -8,7 +8,7 @@ import profileImage from '../../assets/portfolio dp.jpg';
 
 const Home = () => {
   // Path to CV file (should be placed in public folder)
-  const cvPath = process.env.PUBLIC_URL + '/Palle_Harsha_CV.pdf';
+  const cvPath = process.env.PUBLIC_URL + '/Resume409.pdf';
 
   return (
     <section className="home" id="home">
