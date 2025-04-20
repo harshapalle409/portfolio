@@ -13,16 +13,16 @@ const Contact = () => {
             <h3 className="contact__subtitle">Connect with me</h3>
             <div className="contact__social">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/harshapalle409"
                 className="contact__social-link"
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub className="contact__social-icon" />
                 GitHub
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/harsha-palle-1b095b284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 className="contact__social-link"
                 target="_blank" 
                 rel="noopener noreferrer"

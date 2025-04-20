@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="footer__social">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/harshapalle409" 
               className="footer__social-link"
               target="_blank" 
               rel="noopener noreferrer"
@@ -22,7 +22,7 @@ const Footer = () => {
               <FaGithub className="footer__social-icon" />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://www.linkedin.com/in/harsha-palle-1b095b284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               className="footer__social-link"
               target="_blank" 
               rel="noopener noreferrer"
