@@ -9,7 +9,7 @@ import profileImage from '../../assets/portfolio dp.jpg';
 const Home = () => {
   // Path to CV file (should be placed in public folder)
   //const cvPath = process.env.PUBLIC_URL + '/Resume409.pdf';
-  const cvPath = 'https://your-backend.onrender.com/getpdf/1'; // Replace with your actual endpoint
+  const cvPath = 'https://portfolio-backend-palle-harsha.onrender.com/getpdf/1'; // Replace with your actual endpoint
 
   return (
     <section className="home" id="home">
